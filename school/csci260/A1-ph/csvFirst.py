@@ -91,10 +91,3 @@ def main() -> None:
 if __name__ == '__main__':
     main()
 
-
-# Works Cited:
-
-# https://www.johndcook.com/blog/2008/09/26/comparing-three-methods-of-computing-standard-deviation/
-# https://www.epa.gov/goldkingmine/what-ph
-# https://rich.readthedocs.io/en/stable/appendix/colors.html
-# https://rich.readthedocs.io/en/latest/tables.html
