@@ -5,7 +5,7 @@
 | **Assignment Description** | Using similar extraction methods to the class example of calculating discharge, but instead we find pH statistics from the same source in a CSV file |
 |        **Course:**         |                                                                     CSCI260-001                                                                      |
 |      **Instructor:**       |                                                                Professor K. Castleton                                                                |
-|    Assignment Git URL:     |                                                                                                                                                      |
+|    Assignment Git URL:     |                                                                                                                                   https://github.com/jjdodd/Data/tree/main/school/csci260/A1-ph                   |
 
 | *Notes:* | *Contents:*                                                                                                                                                                                                                                                                                                                                               |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
