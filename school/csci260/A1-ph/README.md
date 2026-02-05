@@ -1,11 +1,11 @@
-|           *Info*           |                                        *Desciption*                                         |
-|:--------------------------:|:-------------------------------------------------------------------------------------------:|
-|      **Programmer:**       |                                          Jake Dodd                                          |
-|    **Assignment Name:**    |                                            A1-pH                                            |
-| **Assignment Description** | Using similar extraction methods to the class example of calculating discharge, but instead |
-|        **Course:**         |                                         CSCI260-001                                         |
-|      **Instructor:**       |                                   Professor K. Castleton                                    |
-|    Assignment Git URL:     |                                                                                             |
+|           *Info*           |                                                                     *Desciption*                                                                     |
+|:--------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      **Programmer:**       |                                                                      Jake Dodd                                                                       |
+|    **Assignment Name:**    |                                                                        A1-pH                                                                         |
+| **Assignment Description** | Using similar extraction methods to the class example of calculating discharge, but instead we find pH statistics from the same source in a CSV file |
+|        **Course:**         |                                                                     CSCI260-001                                                                      |
+|      **Instructor:**       |                                                                Professor K. Castleton                                                                |
+|    Assignment Git URL:     |                                                                                                                                                      |
 
 | *Notes:* | *Contents:*                                                                                                                                                                                                                                                                                                                                               |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
