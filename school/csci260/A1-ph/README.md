@@ -27,7 +27,7 @@
 | 02/03/26 | Added some Python rich features for colored text as well as a file-write feature for logging of calculated values.                                                                                                                                                                                                                  |
 | 02/04/26 | Got hyperfixated and reworked the entire project with well defined variables and more python rich features; table, and colored output. Also reformatted the file-write into a semi-workable structure for later extraction of calculated values if desired. File-write now also includes description and timestamp for data access. |
 
-# > Works Referenced
+# Works Referenced
 
 ---
 > https://www.johndcook.com/blog/2008/09/26/comparing-three-methods-of-computing-standard-deviation/
