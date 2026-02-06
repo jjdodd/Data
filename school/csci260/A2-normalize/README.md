@@ -15,15 +15,11 @@
 
 ---
 
-| *Notes:* | *Contents:*                                                                                                                                                                                                                                                                                                                                                               |
-|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Note #1  | This program design could be developed into an entire O.O.P. project with a StatsClass object containing functions for calculating any desired descriptive statistics, which can then be used in conjunction with an ExtractorClass for CSV file structures, as well as other commonly evaluated data structures for a mostly universal template read/write file program. |                                                                                                                                                                                                                                                                                  
-# Updates
+| *Notes:* | *Contents:*                                       |
+|----------|---------------------------------------------------|
+| Note #1  | school/csci260/A2-normalize/screenshots/notes.png |                                                                                                                                                                                                                                                                                  
+| Note #2  | school/csci260/A2-normalize/screenshots/2Nf_rough_sketch.png                                                  |
 
----
-| *Date:*  | *Update Info:*                                                                                                                                                                                                                                                                                                                      |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 02/04/05
 # Works Referenced
 
 ---
@@ -32,4 +28,7 @@
 
 > https://gemini.google.com/
 
-> 
+> E. F. Codd's Original Relational Model Proposal:  
+> https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
+
+>Date, C. J. (2003). An Introduction to Database  Systems, Chapter 12 (8th Edition). Pearson/Addison-Wesley.

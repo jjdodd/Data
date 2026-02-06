@@ -7,12 +7,11 @@ Source Data:
 > Immediately we can see that the 'First Name' column and 'Amount Donated' column betray the 1NF format.  
 
 >Without succinct clarification from the original author of the given dataset, <br> there are a few pieces
->of data that, to be able to better format, may require <br>some potentially presumptuous solutions: Namely
-
-> I am going to assume that Kim and Karl donated their 3500 total equally in separate $1750 donations each
-> for now. # UPDATE —> I can make  <br>
-
-> This is purely an assumption, but would likely only effect the accountants who <br> want specific check values
+>of data that, to be able to better format, may require <br>some potentially presumptuous solutions.
+> >I am going to assume that Kim and Karl donated their 3500 total equally in separate $1750 donations each
+> for now.
+> > > This is purely an assumption, but would likely only effect the accountants who <br> want specific check
+> values if found invalid, although without a payment-form-<br>atomic-value, or specific request for this feature its probably best not to scope <br>creep the parameters.
 
 > Reformat any non-atomic cells (separate cells with multiple values) and define primary key {Donator ID}
 
@@ -39,8 +38,8 @@ Source Data:
 
 >To avoid confusing donation-sourcing, assign every donation by household its own <br> unique ID as well. 
  
->Finally add a bridge to connect Donations to Donators (composite primary key table <br> composed 
-> of two new foreign keys.)
+>Finally add a bridge to connect Donations to Donators (Junction Table <br> composed 
+> of two new Composite Keys.)
 
 ## Table 1: <br> <span style="background-color: dodgerblue;"> DonatorID,</span> First Name, Last Name, Street Address, City, State and Zip <br> <p style="color: dodgerblue;"> Primary Key:</p> <span style="background-color: dodgerblue;"> DonatorID
 
@@ -54,7 +53,7 @@ Source Data:
 |      5       | Jane           | Doe       | 1200 Texas Ave | Grand Junction |   CO 81502    |
 
 ---
-## Table 2: <br><span style="background-color: dodgerblue;"> DonationID,</span> Donation Amount, Help for Kids, Book Provisions <br> <p style="color: dodgerblue;"> Primary Key: </p> <span style="background-color: dodgerblue;"> DonationID,</span>
+## Table 2: <br><span style="background-color: dodgerblue;"> DonationID,</span> Donation Amount, Help for Kids, Book Provisions <br> <p style="color: dodgerblue;"> Primary Key: </p> <span style="background-color: dodgerblue;"> DonationID</span>
 
 | <span style="background-color: dodgerblue"> Donator ID | Amount Donated | Help Kids | Provide Books |        
 |:------------------------------------------------------:|:--------------:|:---------:|:-------------:|
