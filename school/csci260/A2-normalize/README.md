@@ -9,7 +9,7 @@
 |    **Assignment Name:**    |                                                        A2-normalize                                                         |
 | **Assignment Description** | Normalize given source data as far as you can. I made it to 3NF with some ideas about how to move forward with Codd and 4NF |
 |      **Instructor:**       |                                                   Professor K. Castleton                                                    |
-|    Assignment Git URL:     |                                                                                                                             |
+|    Assignment Git URL:     |                                                         https://github.com/jjdodd/Data/tree/main/school/csci260/A2-normalize                                                                    |
 
 # Notes
 
