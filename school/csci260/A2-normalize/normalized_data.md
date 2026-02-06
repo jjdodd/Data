@@ -15,7 +15,7 @@ Source Data:
 
 > Reformat any non-atomic cells (separate cells with multiple values) and define primary key {Donator ID}
 
-# Normalized Data —> 1NF: 
+# Normalized Data —> 1NF: "The Key..."
 
 ---
 > Reformat any non-atomic cells (separate cells with multiple values) and define primary key {Donator ID}
@@ -29,7 +29,7 @@ Source Data:
 |      4      | Karen      | Doe       | $ 2000 | 1200 North Ave | Grand Junction |   CO 81502    |     ✅     |       ✅       |
 |      5      | Jane       | Doe       |  $ 500 | 1200 Texas Ave | Grand Junction |   CO 81502    |     ✅     |       ❌       |
 
-# Normalized Data —> 2NF:
+# Normalized Data —> 2NF: "...The Whole Key...."
 
 ---
 > From our current 1NF normalization, each person now has a unique ID, attributed <br> to their 
@@ -75,7 +75,7 @@ Source Data:
 > Any donation ID now always references a specific person ID, even if multiple people <br>
 > contributed from the same household.
 
-# Normalized Data —> 3NF:
+# Normalized Data —> 3NF: "...And Nothing but the Key, So Help Me Codd"
 > Remove Transitive Dependencies:
 > > Transitive Dependencies occur when a change in the data might cascade into <br> changing multiple
 > > data points for one or any number of different tables.
@@ -117,8 +117,7 @@ Source Data:
 | Grand Junction |   CO   |                                                    81502 |
 
 > Now, if a donator address changes, or a new doner from a different city is added to the database<br>
-> their City and State are linked to Zip, which is now a foreign key for Table 1 in 3NF. No need for <br> 
-> multiple address changes, if a new or old donator address is appended to the data. 
+> their City and State are linked to Zip, which is now a foreign key for Table 1 in 3NF there is no need for multiple address changes, if a new or old donator address is appended to the data. 
 
 > NOTE: I am beginning to see how this process could go on for a very long time, especially if a given database
 > has tons of differing parameters.
