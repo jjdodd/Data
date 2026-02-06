@@ -32,3 +32,5 @@
 > https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf
 
 >Date, C. J. (2003). An Introduction to Database  Systems, Chapter 12 (8th Edition). Pearson/Addison-Wesley.
+
+> https://en.wikipedia.org/wiki/Database_normalization
